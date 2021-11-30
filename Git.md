@@ -6,7 +6,10 @@
 # NOVA CONTA NOV/2021
 email : kleber2002@hotmail.com
 passwd: xadrez@2002
-username: klebergit2002
+
+username: klebergit2002 (k minusculo)
+token : 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
+
 echo "# Oracle" >> README.md
 git init
 git add README.md
@@ -20,8 +23,10 @@ git --version
 
 # DEFININDO O USUÁRIO
 git config --global user.name "KleberBarbosa"
-git config --global user.email kleber2002@gmail.com
-git config credential.helper store # Não solicita senha
+git config --global user.email kleber2002@hotmail.com
+
+# Não solicita senha da segunda vez 
+git config credential.helper store  
 
 # DEFININDO O EDITOR PADRÃO
 git config --global core.editor nano
